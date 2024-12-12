@@ -1,0 +1,30 @@
+:root {
+    --primary:#0065FC;
+    --secondary: #DEEBFF;
+    --bg-dark: #D9D9D9;
+    --bg-light: #F2F2F2;
+}
+
+html{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.destination-input-submit {
+    background-color: var(--primary);
+
+}
+
+header { 
+    display: flex ;
+    justify-content: space-between;
+} 
+.header-logo{
+    height: 20px;
+}
+body{
+   
+    margin: 0;
+    border-radius: 0;
+}
